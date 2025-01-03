@@ -1,0 +1,81 @@
+h1
+{
+    color:blue;
+}
+p
+{
+/*margin : 0;
+padding: 0;
+*/
+font-size:20px;
+
+}
+header {
+background-color: aqua;
+color: brown;
+text-align: center;
+padding: .5rem 0 0;
+position: relative;
+}
+.profile-picture
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    object-fit: cover;
+    position:absolute;
+    top: 75px;
+    left: 100px;
+}
+nav
+{
+    background-color: rgb(233, 229, 237);
+    color:rgba(240, 245, 239, 0.262);
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+.section-content{
+background-color: rgb(61, 200, 156);
+padding: 2rem;
+margin: 1rem;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(240, 245, 239, 0.262);
+/*background-image:url(./back.jpg);
+color: aliceblue;
+background-repeat: no-repeat;
+background-size: cover;*/
+}
+.download-button{
+    background-color: blue;
+    color: aqua;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+   
+}
+.download-button:hover{
+    background-color: crimson;
+
+}
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(0, 255, 183);
+    color: rgb(238, 241, 235);
+}
+body{
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
